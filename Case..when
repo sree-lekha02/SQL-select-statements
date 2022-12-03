@@ -1,0 +1,5 @@
+SELECT EMPNO,ENAME,SAL,  
+                case when SAL<=1000 then 'LOW'
+                     when SAL>1000 and SAL <=1500 then 'Medium'
+                      when SAL>=1500 then 'HIGH' end status
+                      from EMP1;
