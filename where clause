@@ -1,0 +1,1 @@
+SELECT EMPNO,ENAME,DEPTNO from EMP1 where DEPTNO=10 order by ENAME asc;
