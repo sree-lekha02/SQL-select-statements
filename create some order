@@ -1,0 +1,3 @@
+SELECT EMPNO,ENAME,DEPTNO from EMP1 order by 1;
+
+SELECT EMPNO,ENAME,DEPTNO from EMP1 order by 3;
